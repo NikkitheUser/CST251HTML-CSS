@@ -1,0 +1,39 @@
+<CSS>
+.row{
+	width:200px; 
+	display:flex;
+	height:200px;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.flex-container{
+	display:flex;
+	height:200px;
+	align-items: baseline;
+	justify-content: center;
+}
+header{
+	text-align: center;
+}
+body{
+	background-image: url("images/note.jpg") 
+}
+
+.flex-container2{
+	align-items: baseline;
+	justify-content: center;
+	padding: 14px,2px;
+
+}
+}
+	#ass{
+		padding:30px ;
+	}
+	#bitch{
+padding: 30px;
+	}
+.flex-container1{
+	align-items: baseline;
+	justify-content: center;
+	padding: 14px,2px;

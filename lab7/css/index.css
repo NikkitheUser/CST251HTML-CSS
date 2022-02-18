@@ -1,0 +1,32 @@
+<CSS>
+
+body{
+	background-color: lightblue;
+	border-radius:5px;
+	border:2px solid grey;
+    font-size: 120%;
+    padding: 25px;
+    font-family: "ariel",monospace;
+}
+h1, h2, h3, h4 {
+	font-family: "Courier New", monospace;
+		background-color: darkblue;
+		color:white;
+}
+
+img{
+	float: right;
+	size:200px;
+	height:200px;
+	border-radius:50%;
+}
+
+
+div#content{
+background-color: lightblue;
+	border-radius:5px;
+	border:2px solid grey;
+    font-size: 120%;
+    padding: 25px;
+    font-family: "ariel",monospace;
+}

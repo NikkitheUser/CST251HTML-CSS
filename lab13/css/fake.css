@@ -1,0 +1,112 @@
+
+
+div#content{
+background-color:#f6f6f4;
+background: (min-height:600vh; min-width:100vw;);
+margin: 20px 20px 20px 20px;
+padding: 100px 75px 75px 100px;
+resize: none;
+overflow: hidden;
+
+}
+   
+h1{
+    color:#F6CC4C;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+  text-align: center;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  letter-spacing: 50px;
+  max-width: 1000px;
+  min-width: 300px;
+
+}
+h5{
+  font-family: "Times New Roman," serif;
+	text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-60%, 700%);
+overflow: hidden;
+
+
+}
+h4{
+	text-align: center;
+	color:#F6CC4C;    margin: 0;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-60%, 550%);
+  overflow: hidden;
+
+}
+b#yike {
+  font-style: italic;
+  text-align: center;
+}
+p{
+	float:right;
+	font-style: italic;
+	text-decoration-line: underline;
+  color:grey;
+  transform: translate(1500%,250%);
+  position: absolute;
+  z-index: 10;
+overflow: hidden;
+
+}
+div.moved {
+  opacity: 0.5;
+position: relative;
+top: 10px;
+left: 70px;
+z-index: -10;
+} 
+.image1{
+    opacity: 0.2;
+    width:130vh;
+    height:140vh;
+  min-width: 100vh;
+  min-height:120vh;
+  transform: translate(17%,-10%);
+overflow: hidden;
+
+
+}
+.rectangle {
+  height: 50px;
+  width: 1500px;
+  background-color: #F6CC4C;
+  position: relative;
+  overflow: auto;
+overflow: hidden;
+
+  }
+  .image2{
+  background: url(img_google.png);
+width: 200px;
+float: right;
+ transform: translate(-35%,50%);
+overflow: hidden;
+position: relative;
+
+  }
+ .image3{
+  background: url(img_google.png);
+width: 200px;
+float: right;
+height:60px;
+ transform: translate(-30%,65%);
+overflow: hidden;
+position: relative;
+
+  }
+
+

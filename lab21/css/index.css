@@ -1,0 +1,47 @@
+<CSS>
+
+div#content{
+  background-color:blue;
+}
+body{
+background-color: grey;
+}   
+header{
+	border: 3px dashed black;
+	background-color: darkgrey;
+}
+main{
+	border: 3px dashed black;
+	background-color: darkgrey;
+	float: right;
+ width: 60%; 
+ position: relative;
+}
+section{
+border:2px solid black;
+
+}
+h1, h2, h3, h4,.callout{
+    color:white;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px
+}
+aside{
+	float: left;
+	width:50px;
+position: absolute;
+padding: 30px;
+margin: 30px;
+}
+@media screen and(max-width:800px) {
+ .aside, .main, .footer, {
+ width:100%;
+ } }
+    p{
+    font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:white;
+        word-spacing: 1px;
+        letter-spacing: 2px
+    }

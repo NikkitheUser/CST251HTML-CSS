@@ -1,0 +1,207 @@
+<CSS>
+*{
+        margin:0;
+        padding:0;
+    }
+    @media screen and(max-width:800px) {
+  , {
+ width:100%;
+ } }
+ menu{
+  margin: 20px auto;
+  position: sticky; 
+  max-width: 320px;
+  float:right;
+  background-color: transparent;
+
+}
+menu li{
+  position: sticky;
+  list-style: none;
+  overflow: hidden;  
+  margin-bottom: 2px;
+  padding: 14px;
+  font-family: 'Homemade Apple', cursive;
+
+}
+menu li:before{
+    content: "";
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    height: 40px;
+    width: 40px;
+    opacity:0;
+    margin-left: -30px;
+    box-shadow: 0px 0px 0px 480px #d1e3ab;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+menu a{
+  display: block;
+  text-decoration: none;
+  color:#5e5e5e;
+  font-size: 14px;
+  background-color: #c6c5b9;
+  padding: 12px 10px;
+  text-indent: 24px;
+} 
+a.ex1:hover, a.ex1:active {background: #ce9876;
+	-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(3deg);
+        -moz-transform:rotate(3deg);
+        position:relative;
+        top:-10px;}
+a.ex2:hover, a.ex2:active {background: #28536b; color:white;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+a.ex3:hover, a.ex3:active {background: #f6dbb0;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+a.ex4:hover, a.ex4:active {background: #4c8578;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+    body{
+        font-family:arial,sans-serif;
+        font-size:100%;
+        margin:3em;
+        background:#fef5ef;
+        color:#fff;
+        
+    }   
+    
+    .bitch{
+    	position: absolute;
+
+    }
+ header{
+    	text-align: center; 
+    font-family: 'Homemade Apple', cursive;
+    position: relative;
+    padding-top: 10px;
+    }
+    h2,p{
+        font-size:100%;
+        font-weight:normal;
+        color: black;
+       
+       
+    }
+    ul,li{
+        list-style:none;
+    }
+    ul{
+        overflow:hidden;
+        padding:3em;
+    }
+    ul li a{
+        text-decoration:none;
+        color:#000;
+        background:#a8763e;
+        display:block;
+        height:25em;
+        width:26em;
+        padding:1em;
+        -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        -moz-transition:-moz-transform .15s linear;
+        -o-transition:-o-transform .15s linear;
+        -webkit-transition:-webkit-transform .15s linear;
+    }
+    ul li{
+        margin:1em;
+        float:left;
+    }
+    ul li h2{
+        font-size:200%;
+        font-weight:bold;
+        padding-bottom:10px;
+    }
+    ul li p{
+        font-family:"Reenie Beanie",arial,sans-serif;
+        font-size:250%;
+    }
+    ul li:nth-child(1n) a{
+        -o-transform:rotate(4deg);
+        -webkit-transform:rotate(4deg);
+        -moz-transform:rotate(4deg);
+        position:relative;
+        top:5px;
+        background:#4c8578;
+        font-family: 'Homemade Apple', cursive;
+
+
+    }
+    ul li:nth-child(2n) a{
+        -o-transform:rotate(4deg);
+        -webkit-transform:rotate(4deg);
+        -moz-transform:rotate(4deg);
+        position:relative;
+        top:5px;
+        background:#c6c5b9;
+        font-family: 'Homemade Apple', cursive;
+
+   
+        
+    }
+    ul li:nth-child(3n) a{
+        -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;
+        background: #28536b;
+        font-family: 'Homemade Apple', cursive;
+
+    }
+    ul li a:hover,ul li a:focus{
+        -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;

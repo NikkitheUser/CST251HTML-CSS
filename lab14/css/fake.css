@@ -1,0 +1,48 @@
+<css>
+
+div.content{
+	height: 200px;
+  width: 50%;
+
+}
+h1{
+	font-family: 'Rubik', sans-serif;
+	transform: translate(.9in,0in);
+	font-size: 400px;
+		height: 200px;
+  width: 20%;
+	position: static;
+	            transition:all 0.3s ease;
+
+}
+h1:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.3);
+}
+p{
+font-family: 'Libre Baskerville', serif;
+color:white;
+margin:0px 0px 22.5px;
+padding: 0px 20px 0px 0px;
+font-size: 1.5em;
+line-height: 1.4em;
+position: static;
+transform: translate(1in,1in);
+}
+p.men{
+	color: black;
+	float: left;
+	transform: translate(.05in,0.04in);
+	position: static;
+	font-size: 17px;
+	z-index: 2in,
+}
+p.post{
+	color: black;
+		float:right;
+		right:-2.7in;
+		transform: translate(8.5in,0.04in);
+		position: static;
+		font-size: 17px;
+}

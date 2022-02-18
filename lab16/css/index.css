@@ -1,0 +1,77 @@
+<CSS>
+span{
+	text-decoration: underline;
+    color:purple;
+}
+div#content{
+    margin: 20px 20px 20px 20px;
+    padding:100px 100px 100px 100px;
+}   
+  h4{
+    color:skyblue;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h3{
+     color:skyblue;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px;
+   transition: background 2s, transform 2s;
+}
+h3:hover{
+     color: blue;
+  transform: scale(1.1);
+}
+h2{
+      color:skyblue;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px;
+   transition:all 1s linear;
+}
+h2:hover{
+    -webkit-transform: rotate(32deg);
+        -ms-transform: rotate(31deg);
+        transform: rotate(32deg);
+  }
+h1{
+	color:skyblue;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px;
+   transition:all 0.3s ease;
+
+}
+h1:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.2);
+        transform: scale(1.1);
+}
+p{
+    font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:white;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+    }
+    a{
+        color: white;
+    }
+    #newspaper{
+    	column-count: 3;
+    }

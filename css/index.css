@@ -1,0 +1,41 @@
+<CSS>
+
+<CSS>
+
+div.sam{
+	color:darkblue;
+}
+span{
+	text-decoration: underline;
+    color:purple;
+}
+div#content{
+background-color: lightblue;
+	border-radius:5px;
+	border:5px darkblue;
+	border-style: dashed;
+	border-width: 3px
+	border:double;
+    font-size: 120%;
+    padding: 25px;
+    font-family: "ariel",monospace;
+    color:darkblue;
+    margin: 10px 20px 20px 10px;
+    padding:25px 50px 75px 100px;
+}
+   
+h1, h2, h3, h4,.callout{
+    color:purple;
+    font-family: "Courier New", monospace;
+    text-decoration:underline overline;
+}
+
+img{
+	border-radius:55%;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-style: dashed;
+	 
+}
+img:hover {
+ transform: scaleX(-1); height:300px; width:300px;
+} 

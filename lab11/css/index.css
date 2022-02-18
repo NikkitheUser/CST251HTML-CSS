@@ -1,0 +1,72 @@
+<CSS>
+
+div.sam{
+	color:darkblue;
+}
+span{
+	text-decoration: underline;
+    color:purple;
+}
+div#content{
+background-color: lightblue;
+	border-radius:5px;
+	border:5px darkblue;
+	border-style: dashed;
+	border-width: 3px
+	border:double;
+    margin: 20px 20px 20px 20px;
+    padding:100px 75px 75px 100px;
+}   
+h1, h2, h3, h4,.callout{
+    color:purple;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px
+
+}
+h5{
+    color:purple;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+
+}
+
+img:hover {
+ transform: scaleX(-1); 
+} 
+p{
+    font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:darkblue;
+        word-spacing: 1px;
+        letter-spacing: 2px
+}
+div.c{
+    text-decoration: underline;
+      font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:darkblue;
+        word-spacing: 1px;
+        letter-spacing: 2px
+}
+ul{
+     font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:#4d79ff;
+        word-spacing: 1px;
+        letter-spacing: 2px
+}
+div.sidebar {
+    float:right;
+  border: 5px solid black;
+  border-radius: 2px;
+  width: 350px;
+  height: 450px; 
+  position: sticky;
+  z-index: 1; 
+  overflow: hidden;
+  top:0;
+  background-color: white; 
+  margin:20px 10px 10px 20px;
+
+}

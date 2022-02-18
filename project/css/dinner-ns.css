@@ -1,0 +1,197 @@
+<CSS>
+@media only screen and (max-width: 600px) {
+  #sections, #sidebar, {
+   flex: 100%;
+  }
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../images/note.jpg); 
+}
+
+.containter {
+	width: 1200px;
+	position: absolute;
+	right: 50%;
+	left:50%;
+}
+
+menu{
+  margin: 20px auto;
+  position: absolute; 
+  max-width: 320px;
+  float:right;
+  background-color: transparent;
+  margin-left: 70%;
+  margin-top: 20px;
+
+}
+menu li{
+  position: sticky;
+  list-style: none;
+  overflow: hidden;  
+  margin-bottom: 2px;
+  padding: 14px;
+  font-family: 'Homemade Apple', cursive;
+
+}
+menu li:before{
+    content: "";
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    height: 40px;
+    width: 40px;
+    opacity:0;
+    margin-left: -30px;
+    box-shadow: 0px 0px 0px 480px #d1e3ab;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+menu a{
+  display: block;
+  text-decoration: none;
+  color:#5e5e5e;
+  font-size: 14px;
+  background-color: #c6c5b9;
+  padding: 12px 10px;
+  text-indent: 24px;
+} 
+a.ex1:hover, a.ex1:active {background: #ce9876;
+	-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(3deg);
+        -moz-transform:rotate(3deg);
+        position:relative;
+        top:-10px;}
+a.ex2:hover, a.ex2:active {background: #28536b; color:white;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+a.ex3:hover, a.ex3:active {background: #f6dbb0;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+a.ex4:hover, a.ex4:active {background: #4c8578;
+-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+     -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;}
+
+
+header {
+	height: auto;
+	display: flex;
+	flex-wrap: wrap
+}
+
+header h1{
+	padding-left: 25px;
+	font-family: 'Homemade Apple', cursive;
+	color: #28536b;
+	font-size: 45px;
+	padding-top: 30px
+}
+
+.title {
+	flex:100%;
+	text-align: center;
+}
+
+div.main{
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.main section{
+	height: auto;
+	padding: 25px 30px 35px 30px;
+	text-align: center;
+	flex-wrap: wrap;
+/*	flex:30%*/
+}
+#sections {
+	flex:40%;
+}
+
+section h3 {
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+}
+
+h3 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 25px;
+}
+
+img {
+	width: 65%;
+	text-align: center;
+	display: inline
+}
+ul {
+	line-height: 1;
+	text-align: center;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+aside{
+	height: auto;
+	text-align: center;
+	padding-top: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	text-align: left;
+}
+
+aside a {
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+#sidebar{
+	flex: 60%;
+	flex-wrap: wrap;
+	min-width: 600px
+}

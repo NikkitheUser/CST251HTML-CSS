@@ -1,0 +1,31 @@
+<CSS>
+
+p#blue {
+	color: blue;
+}
+div.sam{
+	color:darkblue;
+}
+span{
+	text-decoration: underline;
+    color:purple;
+}
+div#content{
+background-color: lightblue;
+	border-radius:5px;
+	border:2px solid grey;
+    font-size: 120%;
+    padding: 25px;
+    font-family: "ariel",monospace;
+    color:blue;
+}
+h1, h2, h3, h4.callout{
+    color:purple;
+    font-family: "Courier New", monospace;
+    text-decoration:underline overline;
+}
+/*mouse over img*/ 
+/*hover code credit to W3Schools*/
+img:hover {
+ transform: scaleX(-1); height:500px; width:500px;
+} 

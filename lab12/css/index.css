@@ -1,0 +1,74 @@
+CSS
+
+
+div.sam{
+	color:darkblue;
+}
+span{
+	text-decoration: underline;
+    color:purple;
+}
+div#content{
+background-color: lightblue;
+	border-radius:5px;
+	border:5px darkblue;
+	border-style: dashed;
+	border-width: 3px
+	border:double;
+    margin: 20px 20px 20px 20px;
+    padding:100px 75px 75px 100px;
+}   
+h1, h2, h3, h4,.callout{
+    color:purple;
+    text-decoration:underline overline;
+   font-family: 'Mansalva', cursive;
+   word-spacing: 5px
+
+}
+
+p{
+    font-family: 'Schoolbell', cursive;
+        font-size: 120%;
+        color:darkblue;
+        word-spacing: 1px;
+        letter-spacing: 2px
+}
+div#fortheboys{
+	border: 1px solid black;
+	margin: 30px 30px 30px 40px;
+	padding: 20px;
+	height: 400px;
+
+
+}
+img.center {
+ height: 100px;
+ position: relative;
+}
+div#center img{
+ margin: 0;
+ position: absolute;
+ top: 113%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+
+div#center-img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  top:60%;
+  left:50%;
+}
+
+div#floated{
+float: right;
+clear: right;
+padding:5px;
+
+}
+div#center-horz{
+	text-align: center;
+}
